@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARI NEWS | Inteligencia de Negocios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        matteGray: '#6B7280',
+                        brandDark: '#0D0D0D',
+                        softGray: '#F9F9F9',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900 antialiased font-sans">
+
+    <!-- Header -->
+    <header class="p-6 md:px-12 md:py-8 flex flex-col md:flex-row md:items-end justify-between border-b border-gray-100">
+        <div>
+            <h1 class="text-3xl md:text-5xl font-bold tracking-tighter text-brandDark">ARI NEWS</h1>
+            <p class="text-matteGray text-sm uppercase tracking-[0.2em] mt-1 font-medium">Inteligencia de Negocios</p>
+        </div>
+        <div class="mt-4 md:mt-0 text-sm text-gray-500 font-light italic">
+            09 de Octubre, 2026
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="w-full h-auto overflow-hidden">
+        <img src='https://opal.google/board/blobs/c233e157-405a-4f14-b901-4b0a825945bc' alt='Inteligencia Artificial' class="w-full h-64 md:h-[400px] object-cover" />
+    </section>
+
+    <!-- Context Bar -->
+    <section class="px-6 md:px-12 py-6 flex gap-3">
+        <span class="px-4 py-1 bg-black text-white text-[10px] font-bold tracking-widest uppercase rounded-full">Noticias de Inteligencia Artificial</span>
+        <span class="px-4 py-1 bg-gray-200 text-gray-800 text-[10px] font-bold tracking-widest uppercase rounded-full">Argentina</span>
+    </section>
+
+    <!-- Feed de Noticias -->
+    <main class="px-6 md:px-12 pb-20">
+        
+        <!-- News Item 1 -->
+        <article class="bg-white py-10 border-b border-gray-100 transition-all hover:bg-gray-50">
+            <div class="max-w-4xl">
+                <span class="text-matteGray font-bold text-sm block mb-4">01 / 03</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-brandDark leading-tight mb-4">Proponen incorporar inteligencia artificial y robótica al sistema educativo bonaerense</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 max-w-2xl">Se presentó un proyecto de ley en la provincia de Buenos Aires para integrar la enseñanza de inteligencia artificial, robótica y programación en todos los niveles educativos. La iniciativa busca desarrollar habilidades críticas y tecnológicas en los estudiantes para facilitar su inserción laboral en sectores estratégicos.</p>
+                <a href="https://www.google.com/search?q=proponen-incorporar-inteligencia-artificial-y-robotica-al-sistema-educativo-bonaerense" target="_blank" class="inline-flex items-center text-sm font-semibold text-black hover:underline underline-offset-4 decoration-2">
+                    Acceder a la Fuente →
+                </a>
+            </div>
+        </article>
+
+        <!-- News Item 2 -->
+        <article class="bg-softGray py-10 border-b border-gray-100 -mx-6 px-6 md:-mx-12 md:px-12 transition-all hover:bg-gray-100">
+            <div class="max-w-4xl">
+                <span class="text-matteGray font-bold text-sm block mb-4">02 / 03</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-brandDark leading-tight mb-4">La inteligencia artificial y sus desafíos en la Justicia argentina</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 max-w-2xl">Durante las Jornadas Patagónicas de Derecho Civil celebradas en Rawson, especialistas judiciales debatieron sobre la creciente implementación de la IA en los tribunales. Se analizaron los riesgos éticos, la protección de datos sensibles y la necesidad de un marco regulatorio para controlar los efectos de los sistemas automatizados en la práctica jurídica.</p>
+                <a href="https://www.google.com/search?q=la-inteligencia-artificial-y-sus-desafios-en-la-justicia-argentina" target="_blank" class="inline-flex items-center text-sm font-semibold text-black hover:underline underline-offset-4 decoration-2">
+                    Acceder a la Fuente →
+                </a>
+            </div>
+        </article>
+
+        <!-- News Item 3 -->
+        <article class="bg-white py-10 border-b border-gray-100 transition-all hover:bg-gray-50">
+            <div class="max-w-4xl">
+                <span class="text-matteGray font-bold text-sm block mb-4">03 / 03</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-brandDark leading-tight mb-4">El Fondo Nacional de las Artes lanza concurso para obras creadas con inteligencia artificial</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 max-w-2xl">El Gobierno nacional abrió la convocatoria para el Concurso de Arte y Tecnología 2026, destinado a artistas que utilicen inteligencia artificial, realidad virtual y otras tecnologías emergentes. El certamen busca fomentar la innovación artística federal y reflexionar sobre el impacto cultural de las nuevas herramientas digitales en la sociedad.</p>
+                <a href="https://www.google.com/search?q=el-fondo-nacional-de-las-artes-lanza-concurso-para-obras-creadas-con-inteligencia-artificial" target="_blank" class="inline-flex items-center text-sm font-semibold text-black hover:underline underline-offset-4 decoration-2">
+                    Acceder a la Fuente →
+                </a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Hidden Media Placeholders required by instructions -->
+    <div class="hidden">
+        <img src='https://opal.google/board/blobs/c233e157-405a-4f14-b901-4b0a825945bc' alt='media_1' />
+        <img src='https://opal.google/board/blobs/c233e157-405a-4f14-b901-4b0a825945bc' alt='media_2' />
+    </div>
+
+</body>
+</html>
